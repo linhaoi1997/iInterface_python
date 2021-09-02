@@ -1,4 +1,4 @@
-library 'qa-pipeline-library' 
+library 'allure_ statistics' 
 
 
 pipeline {
