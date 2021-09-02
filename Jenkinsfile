@@ -27,6 +27,7 @@ pipeline {
         stage('统计数据') {
             steps {
                 echo "统计数据"
+                allure includeProperties: false, jdk: '', results: [[path: 'iInterface/allure-results']]
                 saveReportToDB()
             }
         }
