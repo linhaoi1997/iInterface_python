@@ -20,6 +20,8 @@ pipeline {
             steps {
                echo "Test"
                sh '''
+               source venv/bin/activate
+               cd iInterface
                pytest -sv test/weather_test.py --alluredir ./allure-results
                '''
             }
