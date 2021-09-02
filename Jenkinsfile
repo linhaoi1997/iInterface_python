@@ -10,7 +10,7 @@ pipeline {
                 echo "Build"
                 export LANG=zh_CN.utf8
                 source venv/bin/activate
-                cd iInterface_python
+                cd iInterface
                 pip install -r requirements.txt
                 '''
 
