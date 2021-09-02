@@ -2,7 +2,7 @@ library 'qa-pipeline-library'
 
 
 pipeline {
-    agent 'lin\'s mac'
+    agent {label 'lin\'s mac'}
     stages {
         stage('Build') {
             steps {
